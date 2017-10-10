@@ -1,2 +1,2 @@
 # twitter-rxjs
-Follow this excellent primer: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+Imitiates a UI element in twitter that allows you to follow other accounts.

@@ -1,0 +1,71 @@
+<style>
+body {
+    font-family: sans-serif;
+    padding: 10px;
+}
+h2 {
+    font-weight: bold;
+    display: inline-block;
+}
+.refresh {
+    font-size: 80%;
+    margin-left: 10px;
+}
+.header {
+    background: #ECECEC;
+    padding: 5px;
+}
+.suggestions {
+    border: 2px solid #ECECEC;
+}
+li {
+    padding: 5px;
+}
+li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+li .username, li .close {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+</style>
+
+<div class="container">
+    <div class="header">
+         <h2>Who to follow</h2><a href="#" class="refresh">Refresh</a>
+    </div>
+    <ul class="suggestions">
+        <li class="suggestion1">
+            <img />
+            <a href="#" target="_blank" class="username">this will not be displayed</a>
+            <a href="#" class="close close1">x</a>
+        </li>
+        <li class="suggestion2">
+            <img />
+            <a href="#" target="_blank" class="username">neither this</a>
+            <a href="#" class="close close2">x</a>
+        </li>
+        <li class="suggestion3">
+            <img />
+            <a href="#" target="_blank" class="username">nor this</a>
+            <a href="#" class="close close3">x</a>
+        </li>
+    </ul>
+</div>
+
+<!-- <script src="https://unpkg.com/rxjs/bundles/Rx.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/rxjs/2.2.26/rx.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/rxjs/2.2.26/rx.async.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/rxjs/2.2.26/rx.coincidence.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/rxjs/2.2.26/rx.binding.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/rxjs/2.2.26/rx.time.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/rxjs-dom/2.0.7/rx.dom.js"></script>
+<script src="twitter.js"></script>
+
